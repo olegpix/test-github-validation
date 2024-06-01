@@ -12,7 +12,7 @@ body:
   - type: input
     id: summary
     attributes:
-      label: Summary
+      label: "Summary **(required)**"
       description: Provide a general summary of the issue.
       placeholder: A short summary of the bug.
     validations:
@@ -20,7 +20,7 @@ body:
   - type: textarea
     id: steps-to-reproduce
     attributes:
-      label: Steps to Reproduce
+      label: "Steps to Reproduce **(required)**"
       description: Describe the steps to reproduce the issue.
       placeholder: "1. Go to...\n2. Click on...\n3. Scroll down to...\n4. See error..."
     validations:
@@ -28,7 +28,7 @@ body:
   - type: input
     id: demo-link
     attributes:
-      label: Demo Link
+      label: "Demo Link **(required)**"
       description: "Provide a link to a demo on [CodeSandbox](https://codesandbox.io/) or [StackBlitz](https://stackblitz.com/) that reproduces the issue.\nYou can fork from an existing [Preline](https://preline.co/docs/frameworks.html) demo if needed."
       placeholder: URL to the demo
     validations:
