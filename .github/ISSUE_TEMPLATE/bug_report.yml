@@ -16,7 +16,7 @@ body:
       description: "Provide a general summary of the issue."
       placeholder: "A short summary of the bug."
     validations:
-      required: false
+      required: true
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -32,7 +32,7 @@ body:
       description: "Provide a link to a demo on [CodeSandbox](https://codesandbox.io/) or [StackBlitz](https://stackblitz.com/) that reproduces the issue.\nYou can fork from an existing [Preline](https://preline.co/docs/frameworks.html) demo if needed."
       placeholder: "URL to the demo"
     validations:
-      required: false
+      required: true
   - type: textarea
     id: expected-behavior
     attributes:
