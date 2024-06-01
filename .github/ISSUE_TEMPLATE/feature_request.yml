@@ -1,6 +1,5 @@
 name: Feature Request
 description: Suggest a new feature or enhancement.
-title: "Use this template to suggest a feature."
 labels: ["enhancement"]
 body:
   - type: markdown
@@ -31,15 +30,3 @@ body:
       placeholder: "Provide specific use cases or scenarios."
     validations:
       required: true
-  - type: input
-    id: alternatives
-    attributes:
-      label: "Alternatives"
-      description: "Describe any alternative solutions or features you've considered."
-      placeholder: "Describe any alternative solutions or features."
-  - type: input
-    id: additional-context
-    attributes:
-      label: "Additional Context"
-      description: "Provide any other context or screenshots about the feature request."
-      placeholder: "Additional context or screenshots."
