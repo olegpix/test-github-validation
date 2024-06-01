@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Bug Report
-    url: https://github.com/htmlstreamofficial/preline-dev/issues/new?template=bug_report.yml
+    url: https://github.com/olegpix/test-github-validation/issues/new?template=bug_report.yml
     about: Use this template to report a bug.
