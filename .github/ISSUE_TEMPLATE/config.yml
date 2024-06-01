@@ -1,4 +1,3 @@
-blank_issues_enabled: false
 contact_links:
   - name: "Report a Bug"
     url: "https://github.com/olegpix/test-github-validation/issues/new?template=bug_report.yml"
