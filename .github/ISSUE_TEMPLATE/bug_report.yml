@@ -1,6 +1,5 @@
 name: Report a bug
 description: Please provide a clear and concise description of the problem.
-title: "[Bug]: "
 body:
   - type: markdown
     attributes:
