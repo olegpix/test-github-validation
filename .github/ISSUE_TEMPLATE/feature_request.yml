@@ -1,0 +1,45 @@
+name: "Feature Request"
+description: "Suggest a new feature or enhancement."
+title: "[Feature Request]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+        Please provide a detailed description of the feature you would like to see. Include as much detail as possible to help us understand your request.
+  - type: input
+    id: feature-summary
+    attributes:
+      label: "Feature Summary **(required)**"
+      description: "Provide a brief summary of the feature."
+      placeholder: "A short summary of the feature."
+      required: true
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: "Detailed Description **(required)**"
+      description: "Describe the feature in detail, including why it would be useful and how it should work."
+      placeholder: "Provide a detailed description of the feature."
+      required: true
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: "Use Cases **(required)**"
+      description: "Describe specific use cases or scenarios where this feature would be beneficial."
+      placeholder: "Provide specific use cases or scenarios."
+      required: true
+  - type: input
+    id: alternatives
+    attributes:
+      label: "Alternatives"
+      description: "Describe any alternative solutions or features you've considered."
+      placeholder: "Describe any alternative solutions or features."
+      required: false
+  - type: input
+    id: additional-context
+    attributes:
+      label: "Additional Context"
+      description: "Provide any other context or screenshots about the feature request."
+      placeholder: "Additional context or screenshots."
+      required: false

@@ -3,3 +3,6 @@ contact_links:
   - name: Bug Report
     url: https://github.com/olegpix/test-github-validation/issues/new?template=bug_report.yml
     about: Use this template to report a bug.
+  - name: Feature Request
+    url: https://github.com/olegpix/test-github-validation/issues/new?template=feature_request.yml
+    about: Suggest a new feature or enhancement.
